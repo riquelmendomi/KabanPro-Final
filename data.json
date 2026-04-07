@@ -1,0 +1,29 @@
+{
+  "boards": [
+    {
+      "id": "b1",
+      "name": "Dashboard",
+      "categories": [],
+      "tasks": []
+    },
+    {
+      "id": "a9050743-7993-42ae-81d8-4c22fd98df34",
+      "name": "342",
+      "categories": [
+        {
+          "id": "d86c6363-04dc-4053-a46e-14aba1be3e89",
+          "name": "Por hacer"
+        },
+        {
+          "id": "24141c75-3c27-4d7d-9461-0b5aa59d4eeb",
+          "name": "En progreso"
+        },
+        {
+          "id": "e9ae5243-5d08-43f7-a779-3b67939c3935",
+          "name": "Hecho"
+        }
+      ],
+      "tasks": []
+    }
+  ]
+}

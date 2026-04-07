@@ -1,0 +1,37 @@
+<div class="auth-wrap">
+  <div class="auth-card text-center">
+    <div class="auth-header">
+      <img src="/img/logouno.svg" alt="KanbanPro" class="kp-logo2">
+      <p class="auth-subtitle">Inicia sesión para continuar</p>
+    </div>
+
+    <form class="auth-form text-start" action="/api/auth/login" method="POST">
+      <label class="auth-label">Correo electrónico</label>
+      <input
+        class="form-control auth-input"
+        name="correo"
+        type="email"
+        placeholder="admin@correo.cl"
+        required
+      />
+
+      <label class="auth-label mt-2">Contraseña</label>
+      <input
+        class="form-control auth-input"
+        name="pass"
+        type="password"
+        placeholder="********"
+        required
+      />
+
+      <button class="btn auth-primary w-100 mt-3" type="submit">
+        Iniciar sesión
+      </button>
+    </form>
+
+    <div class="auth-footer justify-content-center mt-3">
+      <span>¿Primera vez en KanbanPro?</span>
+      <a class="auth-link" href="/register">Registrarse</a>
+    </div>
+  </div>
+</div>
